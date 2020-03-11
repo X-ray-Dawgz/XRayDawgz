@@ -9,7 +9,7 @@ This project will aim to use CNN to predict the crystal structure of a sample ba
 
 
 ## Environment
-Amazon
+Amazon Web Service EC2
 
 
 ## Examples and Demos
