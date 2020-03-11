@@ -1,7 +1,7 @@
 # XRayDawgz
-UW DIRECT project. A general XRD images classifier framework
+UW DIRECT project of a general XRD image pattern classifier framework for predicting crystal structure.
 
 ## purpose
-we want to use this project to make the prediction on the XRD diagrams, and then we can predict which kind of structure it belongs to
+This project will aim to use CNN to predict the crystal structure of a sample based upon its XRD pattern.
 
 ## how to use
