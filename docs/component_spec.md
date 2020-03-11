@@ -5,3 +5,5 @@ Predicts the the crystal structure of a sample.
 The sample's XRD pattern.
 ### Output:
 The sample's predicted crystal structure.
+### Interactions with other components:
+???
