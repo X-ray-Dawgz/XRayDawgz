@@ -15,7 +15,8 @@
 This project will aim to use CNN to predict the crystal structure of a sample based upon its XRD pattern.
 
 ## How to install
-1. install tensorflow 'conda install tensorflow'
+1. install tensorflow 
+`conda install tensorflow`
 2. more detail...
 
 
