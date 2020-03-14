@@ -5,3 +5,5 @@ omit =
     *__init__*
 exclude_lines =
     if __name__ == .__main__.:
+
+repo_token: gnod0eiXWabPBMTogiSCi7XlFBgeKDcj5
