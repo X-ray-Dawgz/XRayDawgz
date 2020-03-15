@@ -1,5 +1,5 @@
 <p align="left">
-  <img src="https://github.com/X-ray-Dawgz/XRayDawgz/blob/master/banner.png" width="900">
+  <img src="https://github.com/X-ray-Dawgz/XRayDawgz/blob/master/banner.png" width="500">
 </p>
 
 
