@@ -1,4 +1,8 @@
-# XRayDawgz
+<p align="left">
+  <img src="https://github.com/X-ray-Dawgz/XRayDawgz/blob/master/banner.png" width="900">
+</p>
+
+
 [![Build Status](https://travis-ci.com/X-ray-Dawgz/XRayDawgz.svg?branch=master)](https://travis-ci.com/X-ray-Dawgz/XRayDawgz)
 [![Coverage Status](https://coveralls.io/repos/github/X-ray-Dawgz/XRayDawgz/badge.svg?branch=master)](https://coveralls.io/github/X-ray-Dawgz/XRayDawgz?branch=master)
 - UW DIRECT project of a general XRD image pattern classifier framework for predicting crystal structure.
