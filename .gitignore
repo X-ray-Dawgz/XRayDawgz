@@ -125,3 +125,5 @@ venv.bak/
 
 #ignoring notebook for time being
 .ipynb
+.DS_Store
+.DS_Store
