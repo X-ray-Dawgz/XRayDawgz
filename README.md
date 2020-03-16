@@ -1,5 +1,5 @@
 <p align="left">
-  <img src="https://github.com/X-ray-Dawgz/XRayDawgz/blob/testbranch/Screen%20Shot%202020-03-14%20at%2011.33.56%20PM.png" width="900">
+  <img src="https://github.com/X-ray-Dawgz/XRayDawgz/blob/master/banner.png" width="900">
 </p>
 
 
