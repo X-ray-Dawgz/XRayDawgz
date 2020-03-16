@@ -44,6 +44,4 @@ script:
 #    - XRayDawgz.py
  
 # generate a coverage report to send to back to user
-after_success: 
-    - coverage report
-    - coveralls
+after_success: conda run coverage
