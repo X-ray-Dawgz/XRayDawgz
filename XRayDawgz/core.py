@@ -10,7 +10,7 @@ img_width, img_height = 379, 288
 train_samples = 665
 test_samples = 98
 # set weights
-epochs = 125
+epochs = 200
 batch_size = 20
 # Directories of train and test data
 train_dir = 'cut_image/Train'
