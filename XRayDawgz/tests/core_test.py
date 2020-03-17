@@ -3,7 +3,7 @@ from core import train_gen
 from core import test_gen
 from core import CNN_model
 from core import train_model
-#from core import plot_data
+from core import plot_data
 
 def test_train_gen():
     assert train_gen()
