@@ -30,21 +30,23 @@ test_data = ImageDataGenerator(rescale=1. / 255)
 # import train data consisting of 'binary' or  2 classifications (BCC or FCC)
 def train_gen():
     result_train_gen = train_data.flow_from_directory(train_dir,
-                                                      target_size=(img_width, img_height),
+                                                      target_size=(img_width,
+                                                                   img_height),
                                                       batch_size=batch_size,
                                                       class_mode='binary',)
     return result_train_gen
 
 
-# import test data consisting of 'binary' or  2 classifications (BCC or FCC) 
+# import test data consisting of 'binary' or  2 classifications (BCC or FCC)
 def test_gen():
     result_test_gen = test_data.flow_from_directory(test_dir,
-                                                    target_size=(img_width, img_height),
+                                                    target_size=(img_width,
+                                                                 img_height),
                                                     batch_size=batch_size,
                                                     class_mode='binary')
     return result_test_gen
 
-  
+
 # build CNN model
 def CNN_model():
     model = Sequential()
