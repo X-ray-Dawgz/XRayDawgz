@@ -9,11 +9,16 @@
 
 ## Table of Contents
 - Purpose
+- Repository Structure
 - How to install
-- Environment
 - Examples and Demos
 - How to use our software
 - License
+
+  
+## Purpose
+This project will aim to use CNN to predict the crystal structure of a sample based upon its XRD pattern.
+
 
 ## Repository Structure 
 ```
@@ -55,9 +60,6 @@
   |- banner.png
   |- requirements.txt
  ``` 
-  
-## Purpose
-This project will aim to use CNN to predict the crystal structure of a sample based upon its XRD pattern.
 
 ## How to install
 1. install tensorflow 
