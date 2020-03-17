@@ -43,10 +43,6 @@ script:
     - coverage run -m unittest discover
     
 
-=======
-    - pytest --cov=XRayDawgz/
->>>>>>> 8687556bf2ba672eb50760a7c83fa08bba62f115
-
  
 # generate a coverage report to send to back to user
 after_success: 
