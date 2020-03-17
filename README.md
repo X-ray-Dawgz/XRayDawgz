@@ -34,18 +34,12 @@ This project will aim to use CNN to predict the crystal structure of a sample ba
       |- __init__.py
       |- core.py
       |- version.py
-      |- ROILocator.py
       |- tests/
         |- __init__.py
         |- test_core.py
         |- cut_image/
           |- Test/
           |- Train/
-      |- data/
-        |- July_test.tif
-        |- test_ROI.tif
-        |- test_gray.tif
-      |- __pycache__/
   |- docs/
       |- Tech_review.pdf
       |- functional_spec.md
