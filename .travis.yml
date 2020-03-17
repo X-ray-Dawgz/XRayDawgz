@@ -13,6 +13,7 @@ matrix:
 branches:
     only:
         - master
+        - stable
 
 # commands to prepare the conda install - download the latest conda
 # and install it and add to path
@@ -29,6 +30,9 @@ install:
     - conda env create -q -n test-environment python=$TRAVIS_PYTHON_VERSION --file environment.yml
     - conda activate test-environment
     - conda install --yes coverage coveralls flake8
+    - pip install python-coveralls
+    - pip install pytest-cov
+    - pip install coveralls
 
 # a list of commands to run before the main script
 before_script:
@@ -37,10 +41,10 @@ before_script:
 # the actual commands to run
 script:
     - coverage run -m unittest discover
-    - cd XRayDawgz
-    - XRayDawgz.py
+#    - cd XRayDawgz
+#    - XRayDawgz.py
  
 # generate a coverage report to send to back to user
-after_success:
+after_success: 
     - coverage report
     - coveralls
