@@ -6,7 +6,7 @@ from keras.layers import Activation, Dropout, Flatten, Dense
 import numpy as np
 
 # image size
-img_width, img_height = 379,288
+img_width, img_height = 379, 288
 # train and test sample sizes
 train_samples = 665
 test_samples = 98
@@ -14,7 +14,7 @@ test_samples = 98
 epochs = 125
 batch_size = 20
 # Directories of train and test data
-train_dir ='cut_image/Train'
+train_dir = 'cut_image/Train'
 test_dir = 'cut_image/Test'
 
 # data image augmentation to create more variation of XRD patterns
@@ -26,36 +26,41 @@ train_data = ImageDataGenerator(rescale=1. / 255,
 # only resize for test data
 test_data = ImageDataGenerator(rescale=1. / 255)
 
-# import train data consisting of 'binary' or  2 classifications (BCC or FCC) 
+
+# import train data consisting of 'binary' or  2 classifications (BCC or FCC)
 def train_gen():
-    result_train_gen=train_data.flow_from_directory(train_dir, target_size=(img_width, img_height),
-                                           batch_size=batch_size,
-                                           class_mode='binary',)
+    result_train_gen = train_data.flow_from_directory(train_dir,
+                                                      target_size=(img_width, img_height),
+                                                      batch_size=batch_size,
+                                                      class_mode='binary',)
     return result_train_gen
+
 
 # import test data consisting of 'binary' or  2 classifications (BCC or FCC) 
 def test_gen():
-    result_test_gen= test_data.flow_from_directory(test_dir, target_size=(img_width, img_height),
-                                         batch_size=batch_size,
-                                         class_mode='binary')
+    result_test_gen = test_data.flow_from_directory(test_dir,
+                                                    target_size=(img_width, img_height),
+                                                    batch_size=batch_size,
+                                                    class_mode='binary')
     return result_test_gen
 
+  
 # build CNN model
 def CNN_model():
     model = Sequential()
     # extract features by iterating across image
     model.add(Conv2D(32, (3, 3), activation='relu',
-                     input_shape=(img_width, img_height, 3)))
+              input_shape=(img_width, img_height, 3)))
     model.add(MaxPooling2D(pool_size=(2, 2)))
     model.add(Dropout(0.2))
 
     model.add(Conv2D(64, (3, 3), activation='relu',
-                 input_shape=(img_width, img_height, 3)))
+              input_shape=(img_width, img_height, 3)))
     model.add(MaxPooling2D(pool_size=(2, 2)))
     model.add(Dropout(0.2))
 
     model.add(Conv2D(96, (3, 3), activation='relu', padding='valid',
-                     input_shape=(img_width, img_height, 3)))
+              input_shape=(img_width, img_height, 3)))
     model.add(MaxPooling2D(pool_size=(2, 2)))
     model.add(Dropout(0.2))
 
@@ -69,22 +74,21 @@ def CNN_model():
     return model
 
 
-
-def train_model():
+  def train_model():
     model = Sequential()
     # extract features by iterating across image
     model.add(Conv2D(32, (3, 3), activation='relu',
-                     input_shape=(img_width, img_height, 3)))
+              input_shape=(img_width, img_height, 3)))
     model.add(MaxPooling2D(pool_size=(2, 2)))
     model.add(Dropout(0.2))
 
     model.add(Conv2D(64, (3, 3), activation='relu',
-                 input_shape=(img_width, img_height, 3)))
+              input_shape=(img_width, img_height, 3)))
     model.add(MaxPooling2D(pool_size=(2, 2)))
     model.add(Dropout(0.2))
 
     model.add(Conv2D(96, (3, 3), activation='relu', padding='valid',
-                     input_shape=(img_width, img_height, 3)))
+              input_shape=(img_width, img_height, 3)))
     model.add(MaxPooling2D(pool_size=(2, 2)))
     model.add(Dropout(0.2))
 
