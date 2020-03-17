@@ -16,7 +16,7 @@
 - License
 
 ## Repository Structure 
-`  
+```
   |- README.md
   |- Images/
       |- BCC_test
@@ -51,10 +51,10 @@
   |- .coverage.yml
   |- environment.yml
   |- .gitignore
-  |- LICENSE `
+  |- LICENSE 
   |- banner.png
   |- requirements.txt
-  
+ ``` 
   
 ## Purpose
 This project will aim to use CNN to predict the crystal structure of a sample based upon its XRD pattern.
