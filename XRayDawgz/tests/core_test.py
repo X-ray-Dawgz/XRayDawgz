@@ -14,14 +14,14 @@ def test_test_gen():
     return
 
 
-def test_CNN_model():
-    assert CNN_model()
-    return
+#def test_CNN_model():
+ #   assert CNN_model()
+  #  return
 
-def test_train_model():
-    assert train_model()
-    return
+#def test_train_model():
+ #   assert train_model()
+  #  return
 
-def plot_data():
-    assert plot_data()
-    return
+#def plot_data():
+ #   assert plot_data()
+  #  return
