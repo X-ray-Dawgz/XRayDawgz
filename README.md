@@ -8,6 +8,7 @@
 - UW DIRECT project of a general XRD image pattern classifier framework for predicting crystal structure.
 
 ## Table of Contents
+- Background
 - Purpose
 - Repository Structure
 - How to install
@@ -15,6 +16,16 @@
 - How to use our software
 - License
 
+## Background
+All crystalline materials in nature have chemical and physical properties strongly dependent on atomic structures
+  - Single-crystal X-ray diffraction
+    - Limitations: nanosized crystals, intergrowth, and defects
+  - Powder X-ray diffraction
+    - Limitations: complex structures, multiphasic samples, impurities, peak overlaps
+  - Alternatives: electron crystallography (EC), high-resolution transmission electron microscopy (HRTEM)
+    - Requires considerable expertise on the operation of electron microscopes and crystallography
+
+SOLUTION: to use CNN to predict crystal structure from any XRD pattern
   
 ## Purpose
 This project will aim to use CNN to predict the crystal structure of a sample based upon its XRD pattern.
