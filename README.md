@@ -15,6 +15,47 @@
 - How to use our software
 - License
 
+## Repository Structure 
+`  
+  |- README.md
+  |- Images/
+      |- BCC_test
+      |- BCC_train
+      |- Cubic_BCC
+      |- Cubic_FCC
+      |- FCC_test
+      |- FCC_train
+  |- XRayDawgz/
+      |- __init__.py
+      |- core.py
+      |- version.py
+      |- ROILocator.py
+      |- tests/
+        |- __init__.py
+        |- test_core.py
+        |- cut_image/
+          |- Test/
+          |- Train/
+      |- data/
+        |- July_test.tif
+        |- test_ROI.tif
+        |- test_gray.tif
+      |- __pycache__/
+  |- docs/
+      |- Tech_review.pdf
+      |- functional_spec.md
+      |- component_spec.md
+  |- setup.py
+  |- .travis.yml
+  |- .coveragerc
+  |- .coverage.yml
+  |- environment.yml
+  |- .gitignore
+  |- LICENSE `
+  |- banner.png
+  |- requirements.txt
+  
+  
 ## Purpose
 This project will aim to use CNN to predict the crystal structure of a sample based upon its XRD pattern.
 
@@ -22,11 +63,6 @@ This project will aim to use CNN to predict the crystal structure of a sample ba
 1. install tensorflow 
 `conda install tensorflow`
 2. more detail...
-
-
-## Environment
-Amazon Web Service EC2
-
 
 ## Examples and Demos
 
