@@ -35,14 +35,12 @@ install:
     - pip install coveralls
     - pip install -r requirements.txt
 
-# a list of commands to run before the main script
-before_script:
-    - flake8 XRayDawgz
+
 
 # the actual commands to run
 script:
     - coverage run -m unittest discover
-    # cd XRayDawgz
+    - cd XRayDawgz
    # - XRayDawgz.py
 
  
