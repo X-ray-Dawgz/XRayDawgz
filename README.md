@@ -75,10 +75,10 @@ This project will aim to use CNN to predict the crystal structure of a sample ba
 
 2. Use the following method to clone repo
 
-   First, press the green botton <img src="https://github.com/X-ray-Dawgz/XRayDawgz/blob/master/icon.png" width="80"> at 
+   - First, press the green botton <img src="https://github.com/X-ray-Dawgz/XRayDawgz/blob/master/icon.png" width="80"> at 
    
-   the home page of our repo, and choose "Download Zip". Finally, unzip the file and you would get the file name "XRayDawgz"  
-   in your path.
+   the home page of our repo, and choose "Download Zip". 
+   - Finally, unzip the file and you would get the file name "XRayDawgz" in your path.
 
 ## Examples and Demos
 
