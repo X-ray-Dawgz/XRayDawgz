@@ -101,13 +101,12 @@ The example below shows a user creating a jupyter notebook in the directory xray
 1. Prepare the image of XRD pattern and place the image(s) in a folder.
 
 2. In the XRayDawgz/xraydawgz, the user will:
-    ```import Predict```
     
-3. User will call Predict.crystal_structure("path_to_the_file_including_images"), you can readily check the path by dragging the file  
-   
-   into the terminal!
+     ```import Predict```
+    
+3. User will call Predict.crystal_structure("path_to_the_file_including_images"), you can readily check the path by dragging the file into the terminal!
 
-   ```predict.crystal_structure("path_to_the_file_included_image")```
+    ```predict.crystal_structure("path_to_the_file_included_image")```
    
 
 
