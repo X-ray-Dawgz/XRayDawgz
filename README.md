@@ -34,19 +34,20 @@ In all cases, the users will inputting the XRD pattern that they obtained into o
 ## Repository Structure 
 ```
   |- README.md
-  |- Images/
-      |- BCC_test
-      |- BCC_train
-      |- Cubic_BCC
-      |- Cubic_FCC
-      |- FCC_test
-      |- FCC_train
   |- XRayDawgz/
       |- __init__.py
       |- core.py
       |- version.py
       |- predict.py
+      |- crystal_structure_classifier.h5      
       |- XRD_Images/
+        |- Test/
+        |- Train/
+        |- demo_images/
+          |- BCC/
+          |- FCC/
+      |- Demo/
+        |- Demo_FCC_prediction.ipynb
       |- tests/
         |- __init__.py
         |- test_core.py
