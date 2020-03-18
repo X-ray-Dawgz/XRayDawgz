@@ -1,5 +1,5 @@
 <p align="left">
-  <img src="https://github.com/X-ray-Dawgz/XRayDawgz/blob/master/banner.png" width="900">
+  <img src="https://github.com/X-ray-Dawgz/XRayDawgz/blob/master/icon/banner.png" width="900">
 </p>
 
 
@@ -75,7 +75,7 @@ In all cases, the users will inputting the XRD pattern that they obtained into o
 
 2. Use the following method to clone repo
 
-   - press the green botton <img src="https://github.com/X-ray-Dawgz/XRayDawgz/blob/master/icon.png" width="80"> at 
+   - press the green botton <img src="https://github.com/X-ray-Dawgz/XRayDawgz/blob/master/icon/icon.png" width="80"> at 
 the home page of our repo, and choose "Download Zip". 
    
    - unzip the file and you would get the file name "XRayDawgz" in your path.
@@ -84,9 +84,9 @@ the home page of our repo, and choose "Download Zip".
 
 
 ## How to use our software
-1.First, the user needs to prepare the XRD diagram pictures which they want to make the prediction. These pictures need to   
+1. First, the user needs to prepare the XRD diagram pictures which they want to make the prediction. These pictures need to   
   
-  match our standard to test. 
+   match our standard to test. 
   
   - The standard size is 372*288pxi
   - the range of the diffraction angle(2θ) needs to be 0-80 degree
