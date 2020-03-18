@@ -91,10 +91,16 @@ the home page of our repo, and choose "Download Zip".
     - the range of the diffraction angle(2θ) needs to be 0-80 degree
     - the format of the pictures can be .jpg, .npg, .jpeg, .bmp
 
-2. Next, 
+2. Next, the user needs to go inside the XRayDawgz/XRayDawgz file, and then import predict
 
+    ```import predict```
+    
+3. Last, predict.crystal_structure("path_to_the_file_included_image"), you can readily check the path by dragging the file  
+   
+   into the terminal!
 
-
+   ```predict.crystal_structure("path_to_the_file_included_image")```
+   
 
 
 
