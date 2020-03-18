@@ -3,7 +3,8 @@ from keras.preprocessing import image
 import os
 import numpy as np
 
-def crystal_structure(path_to_image):
+class Predict(object):
+    def crystal_structure(path_to_image):
     """
     This function takes the input XRD pattern/image and runs it through the CNN
     model to predict the crystal structure.
