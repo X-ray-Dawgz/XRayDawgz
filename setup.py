@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="xraydawgz",
-    version="0.2",
+    version="0.3",
     license='MIT',
     author="Rick, Alex, Robert, Kevin",
     author_email = 'rbiegaj@uw.edu',
