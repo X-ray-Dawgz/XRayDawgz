@@ -3,8 +3,6 @@ __pycache__/
 *.py[cod]
 *$py.class
 
-.DS_Store
-
 # C extensions
 *.so
 
@@ -124,7 +122,12 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+.dmypy.json
+dmypy.json
 
-#ignoring notebook
+# Pyre type checker
+.pyre/
+
+# Jupyter notebook
 .ipynb
-
+.DS_Store

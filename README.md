@@ -1,5 +1,5 @@
 <p align="left">
-  <img src="https://github.com/X-ray-Dawgz/XRayDawgz/blob/master/banner.png" width="900">
+  <img src="https://github.com/X-ray-Dawgz/XRayDawgz/blob/master/icon/banner.png" width="900">
 </p>
 
 
@@ -34,27 +34,37 @@ In all cases, the users will inputting the XRD pattern that they obtained into o
 ## Repository Structure 
 ```
   |- README.md
-  |- Images/
-      |- BCC_test
-      |- BCC_train
-      |- Cubic_BCC
-      |- Cubic_FCC
-      |- FCC_test
-      |- FCC_train
   |- XRayDawgz/
       |- __init__.py
       |- core.py
       |- version.py
+      |- predict.py
+      |- crystal_structure_classifier.h5      
+      |- XRD_Images/
+        |- Test/
+        |- Train/
+        |- demo_images/
+          |- BCC/
+          |- FCC/
+      |- Demo/
+        |- Demo_FCC_prediction.ipynb
       |- tests/
         |- __init__.py
         |- test_core.py
+        |- Images/
         |- cut_image/
           |- Test/
           |- Train/
+  |- cut_image/
+      |- Test/
+      |- Train/
   |- docs/
       |- Tech_review.pdf
       |- functional_spec.md
       |- component_spec.md
+  |- icon/
+      |- banner.png
+      |- icon.png
   |- setup.py
   |- .travis.yml
   |- .coveragerc
@@ -62,7 +72,6 @@ In all cases, the users will inputting the XRD pattern that they obtained into o
   |- environment.yml
   |- .gitignore
   |- LICENSE 
-  |- banner.png
   |- requirements.txt
  ``` 
 
@@ -75,7 +84,7 @@ In all cases, the users will inputting the XRD pattern that they obtained into o
 
 2. Use the following method to clone repo
 
-   - press the green botton <img src="https://github.com/X-ray-Dawgz/XRayDawgz/blob/master/icon.png" width="80"> at 
+   - press the green botton <img src="https://github.com/X-ray-Dawgz/XRayDawgz/blob/master/icon/icon.png" width="80"> at 
 the home page of our repo, and choose "Download Zip". 
    
    - unzip the file and you would get the file name "XRayDawgz" in your path.
@@ -84,18 +93,23 @@ the home page of our repo, and choose "Download Zip".
 
 
 ## How to use our software
-1.First, the user needs to prepare the XRD diagram pictures which they want to make the prediction. These pictures need to   
+1. First, the user needs to prepare the XRD diagram pictures which they want to make the prediction. These pictures need to   
+   match our standard to test. 
   
-  match our standard to test. 
-  
-  - The standard size is 372*288pxi
-  - the range of the diffraction angle(2θ) needs to be 0-80 degree
-  - the format of the pictures can be .jpg, .npg, .jpeg, .bmp
+    - The standard size is 379*288pxi
+    - the range of the diffraction angle(2θ) needs to be 0-80 degree
+    - the format of the pictures can be .jpg, .npg, .jpeg, .bmp
 
-2.
+2. Next, the user needs to go inside the XRayDawgz/XRayDawgz file, and then import predict
 
+    ```import predict```
+    
+3. Last, predict.crystal_structure("path_to_the_file_included_image"), you can readily check the path by dragging the file  
+   
+   into the terminal!
 
-
+   ```predict.crystal_structure("path_to_the_file_included_image")```
+   
 
 
 
