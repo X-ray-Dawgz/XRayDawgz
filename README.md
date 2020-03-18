@@ -88,7 +88,7 @@ the home page of our repo, and choose "Download Zip".
   
   match our standard to test. 
   
-  - The standard size is 432*288pxi
+  - The standard size is 372*288pxi
   - the range of the diffraction angle(2θ) needs to be 0-80 degree
   - the format of the pictures can be .jpg, .npg, .jpeg, .bmp
 
