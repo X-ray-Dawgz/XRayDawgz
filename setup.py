@@ -9,6 +9,7 @@ setuptools.setup(
     author="Rick, Alex, Robert, Kevin",
     description="XRayDawgz XRD image pattern classifier",
     url="https://github.com/X-ray-Dawgz/XRayDawgz",
+    download_url = 'https://github.com/X-ray-Dawgz/XRayDawgz/archive/v_01.tar.gz',
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
