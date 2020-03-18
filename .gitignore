@@ -128,3 +128,4 @@ venv.bak/
 #ignoring notebook
 .ipynb
 
+.DS_Store
