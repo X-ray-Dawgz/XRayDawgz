@@ -1,9 +1,9 @@
-from distutils.core import setup
+import setuptools
 
 with open("README.md", "r") as fh:
     long_description = fh.read()
 
-setup(
+setuptools.setup(
     name="xraydawgz",
     version="0.1",
     license='MIT',
