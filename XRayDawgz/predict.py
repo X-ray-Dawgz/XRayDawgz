@@ -3,13 +3,12 @@ from keras.preprocessing import image
 import os
 import numpy as np
 
-cnn_model = keras.models.load_model('crystal_structure_classifier.h5')
-
 def crystal_structure(path_to_image):
     """
     This function takes the input XRD pattern/image and runs it through the CNN
     model to predict the crystal structure.
     """
+    cnn_model = keras.models.load_model('crystal_structure_classifier.h5')
     for file in os.listdir(path_to_image):
         predict_img = image.load_img(path_to_image + file,
                 target_size = (432,288))
