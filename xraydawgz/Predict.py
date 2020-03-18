@@ -3,6 +3,7 @@ from keras.preprocessing import image
 
 import os
 import numpy as np
+import h5py
 
 
 class Predict(object):
@@ -15,7 +16,8 @@ class Predict(object):
         This function takes the input XRD pattern/image and runs it through the
         CNN model to predict the crystal structure.
         """
-        cnn_model = keras.models.load_model('crystal_structure_classifier.h5')
+        h5file = h5py.File('crystal_structure_classifier.h5', 'r')
+        cnn_model = keras.models.load_model(h5file)
         for file in os.listdir(path_to_image):
             predict_img = image.load_img(path_to_image+file,
                                          target_size=(379, 288))
