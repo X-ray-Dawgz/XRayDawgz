@@ -29,7 +29,7 @@ SOLUTION: to use CNN to predict crystal structure from any XRD pattern
   
 ## Purpose
 This project will aim to use CNN to predict the crystal structure of a sample based upon its XRD pattern.
-
+In all cases, the users will inputting the XRD pattern that they obtained into our XRayDawgz, which will return a predicted crystal structure.
 
 ## Repository Structure 
 ```
