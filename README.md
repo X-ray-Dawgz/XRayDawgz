@@ -75,10 +75,10 @@ In all cases, the users will inputting the XRD pattern that they obtained into o
 
 2. Use the following method to clone repo
 
-   - First, press the green botton <img src="https://github.com/X-ray-Dawgz/XRayDawgz/blob/master/icon.png" width="80"> at 
+   - press the green botton <img src="https://github.com/X-ray-Dawgz/XRayDawgz/blob/master/icon.png" width="80"> at 
+the home page of our repo, and choose "Download Zip". 
    
-   the home page of our repo, and choose "Download Zip". 
-   - Finally, unzip the file and you would get the file name "XRayDawgz" in your path.
+   - unzip the file and you would get the file name "XRayDawgz" in your path.
 
 ## Examples and Demos
 
@@ -88,7 +88,7 @@ In all cases, the users will inputting the XRD pattern that they obtained into o
   
   match our standard to test. 
   
-  - The standard size is 432*288pxi
+  - The standard size is 372*288pxi
   - the range of the diffraction angle(2θ) needs to be 0-80 degree
   - the format of the pictures can be .jpg, .npg, .jpeg, .bmp
 
