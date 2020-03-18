@@ -103,7 +103,7 @@ The example below shows a user creating a jupyter notebook in the directory xray
 2. In the XRayDawgz/xraydawgz, the user will:
     ```import Predict```
     
-3. User will call Predict.crystal_structure("path_to_the_file_including_image(s)"), you can readily check the path by dragging the file  
+3. User will call Predict.crystal_structure("path_to_the_file_including_images"), you can readily check the path by dragging the file  
    
    into the terminal!
 
