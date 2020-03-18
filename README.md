@@ -68,10 +68,13 @@ This project will aim to use CNN to predict the crystal structure of a sample ba
 
 ## How to install
 1. install tensorflow and keras
-`conda install tensorflow`
-`conda install keras`
+
+     `conda install tensorflow`
+
+     `conda install keras`
+
 2. use the following method to clone repo
-press the green botton <img src="https://github.com/X-ray-Dawgz/XRayDawgz/blob/master/icon.png" width="20"> at the home page of our repo, and choose "Download Zip". Finally, unzip the file and you would get the file name "XRayDawgz" in your local .
+press the green botton <img src="https://github.com/X-ray-Dawgz/XRayDawgz/blob/master/icon.png" width="100"> at the home page of our repo, and choose "Download Zip". Finally, unzip the file and you would get the file name "XRayDawgz" in your local .
 
 ## Examples and Demos
 
