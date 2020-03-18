@@ -11,7 +11,7 @@ setuptools.setup(
     author_email = 'rbiegaj@uw.edu',
     description="XRayDawgz XRD image pattern classifier",
     url="https://github.com/X-ray-Dawgz/XRayDawgz",
-    download_url = 'https://github.com/X-ray-Dawgz/XRayDawgz/archive/v02.tar.gz',
+    download_url = 'https://github.com/X-ray-Dawgz/XRayDawgz/archive/v03.tar.gz',
     packages=setuptools.find_packages(),
     install_requires=[
         'tensorflow',
