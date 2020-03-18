@@ -8,25 +8,74 @@
 - UW DIRECT project of a general XRD image pattern classifier framework for predicting crystal structure.
 
 ## Table of Contents
+- Background
 - Purpose
+- Repository Structure
 - How to install
-- Environment
 - Examples and Demos
 - How to use our software
 - License
 
+## Background
+All crystalline materials in nature have chemical and physical properties strongly dependent on atomic structures
+  - Single-crystal X-ray diffraction
+    - Limitations: nanosized crystals, intergrowth, and defects
+  - Powder X-ray diffraction
+    - Limitations: complex structures, multiphasic samples, impurities, peak overlaps
+  - Alternatives: electron crystallography (EC), high-resolution transmission electron microscopy (HRTEM)
+    - Requires considerable expertise on the operation of electron microscopes and crystallography
+
+SOLUTION: to use CNN to predict crystal structure from any XRD pattern
+  
 ## Purpose
 This project will aim to use CNN to predict the crystal structure of a sample based upon its XRD pattern.
 
+
+## Repository Structure 
+```
+  |- README.md
+  |- Images/
+      |- BCC_test
+      |- BCC_train
+      |- Cubic_BCC
+      |- Cubic_FCC
+      |- FCC_test
+      |- FCC_train
+  |- XRayDawgz/
+      |- __init__.py
+      |- core.py
+      |- version.py
+      |- tests/
+        |- __init__.py
+        |- test_core.py
+        |- cut_image/
+          |- Test/
+          |- Train/
+  |- docs/
+      |- Tech_review.pdf
+      |- functional_spec.md
+      |- component_spec.md
+  |- setup.py
+  |- .travis.yml
+  |- .coveragerc
+  |- .coverage.yml
+  |- environment.yml
+  |- .gitignore
+  |- LICENSE 
+  |- banner.png
+  |- requirements.txt
+ ``` 
+
 ## How to install
-1. install tensorflow 
-`conda install tensorflow`
-2. more detail...
+1. install tensorflow and keras
 
+     `conda install tensorflow`
 
-## Environment
-Amazon Web Service EC2
+     `conda install keras`
 
+2. use the following method to clone repo
+
+First, press the green botton <img src="https://github.com/X-ray-Dawgz/XRayDawgz/blob/master/icon.png" width="100"> at the home page of our repo, and choose "Download Zip". Finally, unzip the file and you would get the file name "XRayDawgz" in your path.
 
 ## Examples and Demos
 
