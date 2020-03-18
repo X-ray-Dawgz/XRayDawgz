@@ -69,18 +69,35 @@ This project will aim to use CNN to predict the crystal structure of a sample ba
 ## How to install
 1. install tensorflow and keras
 
-     `conda install tensorflow`
+    `conda install tensorflow`
 
-     `conda install keras`
+    `conda install keras`
 
 2. use the following method to clone repo
 
-First, press the green botton <img src="https://github.com/X-ray-Dawgz/XRayDawgz/blob/master/icon.png" width="100"> at the home page of our repo, and choose "Download Zip". Finally, unzip the file and you would get the file name "XRayDawgz" in your path.
+   First, press the green botton <img src="https://github.com/X-ray-Dawgz/XRayDawgz/blob/master/icon.png" width="100"> at    
+   the home page of our repo, and choose "Download Zip". Finally, unzip the file and you would get the file name "XRayDawgz"  
+   in your path.
 
 ## Examples and Demos
 
 
 ## How to use our software
+1.First, the user needs to prepare the XRD diagram pictures which they want to make the prediction. These pictures need to   
+  
+  match our standard to test. 
+  
+  - The standard size is 432*288pxi
+  - the range of the diffraction angle(2θ) needs to be 0-80 degree
+  - the format of the pictures can be .jpg, .npg, .jpeg, .bmp
+
+2.
+
+
+
+
+
+
 
 ## License
 [![PyPI license](https://img.shields.io/pypi/l/ansicolortags.svg)](https://pypi.python.org/pypi/ansicolortags/)
