@@ -5,7 +5,6 @@ with open("README.md", "r") as fh:
 
 ssetup(
     name="xraydawgz",
-    packages = ['xraydawgz'],
     version="0.1",
     license='MIT',
     author="Rick, Alex, Robert, Kevin",
