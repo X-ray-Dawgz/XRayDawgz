@@ -5,8 +5,11 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="xraydawgz",
+    packages = ['xraydawgz'],
     version="0.1",
+    license='MIT',
     author="Rick, Alex, Robert, Kevin",
+    author_email = 'rbiegaj@uw.edu',
     description="XRayDawgz XRD image pattern classifier",
     url="https://github.com/X-ray-Dawgz/XRayDawgz",
     download_url = 'https://github.com/X-ray-Dawgz/XRayDawgz/archive/v_01.tar.gz',
