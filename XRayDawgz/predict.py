@@ -11,7 +11,7 @@ def crystal_structure(path_to_image):
     cnn_model = keras.models.load_model('crystal_structure_classifier.h5')
     for file in os.listdir(path_to_image):
         predict_img = image.load_img(path_to_image + file,
-                target_size = (432,288))
+                target_size = (379,288))
         predict_img = image.img_to_array(predict_img)
         predict_img = np.expand_dims(predict_img, axis = 0)
         result = cnn_model.predict(predict_img)
