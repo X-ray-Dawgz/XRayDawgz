@@ -87,7 +87,7 @@ the home page of our repo, and choose "Download Zip".
 1. First, the user needs to prepare the XRD diagram pictures which they want to make the prediction. These pictures need to   
    match our standard to test. 
   
-    - The standard size is 372*288pxi
+    - The standard size is 379*288pxi
     - the range of the diffraction angle(2θ) needs to be 0-80 degree
     - the format of the pictures can be .jpg, .npg, .jpeg, .bmp
 
