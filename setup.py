@@ -17,6 +17,7 @@ setuptools.setup(
         'tensorflow',
         'keras.preprocessing',
         'numpy',
+        'h5py',
     ],
     classifiers=[
         "Programming Language :: Python :: 3",
