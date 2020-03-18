@@ -38,6 +38,7 @@ In all cases, the users will inputting the XRD pattern that they obtained into o
       |- Tech_review.pdf
       |- functional_spec.md
       |- component_spec.md
+      |- UW Final presentation.pdf
   |- icon/
       |- banner.png
       |- icon.png
