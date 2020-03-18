@@ -74,7 +74,8 @@ This project will aim to use CNN to predict the crystal structure of a sample ba
      `conda install keras`
 
 2. use the following method to clone repo
-press the green botton <img src="https://github.com/X-ray-Dawgz/XRayDawgz/blob/master/icon.png" width="100"> at the home page of our repo, and choose "Download Zip". Finally, unzip the file and you would get the file name "XRayDawgz" in your local .
+
+First, press the green botton <img src="https://github.com/X-ray-Dawgz/XRayDawgz/blob/master/icon.png" width="100"> at the home page of our repo, and choose "Download Zip". Finally, unzip the file and you would get the file name "XRayDawgz" in your path.
 
 ## Examples and Demos
 
