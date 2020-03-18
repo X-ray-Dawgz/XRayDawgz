@@ -45,16 +45,25 @@ In all cases, the users will inputting the XRD pattern that they obtained into o
       |- __init__.py
       |- core.py
       |- version.py
+      |- predict.py
+      |- XRD_Images/
       |- tests/
         |- __init__.py
         |- test_core.py
+        |- Images/
         |- cut_image/
           |- Test/
           |- Train/
+  |- cut_image/
+      |- Test/
+      |- Train/
   |- docs/
       |- Tech_review.pdf
       |- functional_spec.md
       |- component_spec.md
+  |- icon/
+      |- banner.png
+      |- icon.png
   |- setup.py
   |- .travis.yml
   |- .coveragerc
@@ -62,7 +71,6 @@ In all cases, the users will inputting the XRD pattern that they obtained into o
   |- environment.yml
   |- .gitignore
   |- LICENSE 
-  |- banner.png
   |- requirements.txt
  ``` 
 
